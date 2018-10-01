@@ -26,38 +26,38 @@
 #     location: '',
 #     avatar: '',
 #     bio: ''
+# # )
+
+# User.create!(
+#     email: 'asimone@gmail.com',
+#     password: 'password',
+#     first_name: 'Ashley',
+#     last_name: 'Simone',
+#     location: 'Brooklyn',
+#     avatar: '/assets/default_user.png',
+#     bio: 'We must stand up, move the needle emerging do-gooder entrepreneur movements. Co-creation overcome injustice collaborative consumption theory of change the design thinking. Inclusion, thought provoking activate shine white paper. Segmentation empower communities a save the world framework vibrant inspire.'
 # )
 
-User.create!(
-    email: 'asimone@gmail.com',
-    password: 'password',
-    first_name: 'Ashley',
-    last_name: 'Simone',
-    location: 'Brooklyn',
-    avatar: '/assets/default_user.png',
-    bio: 'We must stand up, move the needle emerging do-gooder entrepreneur movements. Co-creation overcome injustice collaborative consumption theory of change the design thinking. Inclusion, thought provoking activate shine white paper. Segmentation empower communities a save the world framework vibrant inspire.'
-)
-
-User.create!(
-    email: 'dpatlut@gmail.com',
-    password: 'password',
-    first_name: 'David',
-    last_name: 'Patlut',
-    location: 'Brooklyn',
-    avatar: '/assets/default_user.png',
-    bio: 'Thought provoking NGO venture philanthropy; natural resources state of play compelling shared unit of analysis move the needle support. Change-makers deep dive, theory of change program areas impact fairness but collaborative consumption.'
-)
+# User.create!(
+#     email: 'dpatlut@gmail.com',
+#     password: 'password',
+#     first_name: 'David',
+#     last_name: 'Patlut',
+#     location: 'Brooklyn',
+#     avatar: '/assets/default_user.png',
+#     bio: 'Thought provoking NGO venture philanthropy; natural resources state of play compelling shared unit of analysis move the needle support. Change-makers deep dive, theory of change program areas impact fairness but collaborative consumption.'
+# )
 
 
-User.create!(
-    email: 'jmurphy@gmail.com',
-    password: 'password',
-    first_name: 'John',
-    last_name: 'Murphy',
-    location: 'Queens',
-    avatar: '/assets/default_user.png',
-    bio: 'The, mass incarceration citizen-centered shared value shine justice; living a fully ethical life energize LGBTQ+. The, replicable commitment citizen-centered, scalable. Do-gooder, shared unit of analysis cultivate indicators compelling her body her rights compassion.'
-)
+# User.create!(
+#     email: 'jmurphy@gmail.com',
+#     password: 'password',
+#     first_name: 'John',
+#     last_name: 'Murphy',
+#     location: 'Queens',
+#     avatar: '/assets/default_user.png',
+#     bio: 'The, mass incarceration citizen-centered shared value shine justice; living a fully ethical life energize LGBTQ+. The, replicable commitment citizen-centered, scalable. Do-gooder, shared unit of analysis cultivate indicators compelling her body her rights compassion.'
+# )
 
 require 'httparty'
 
@@ -348,3 +348,4 @@ orgs_list.each_pair do |org_id, opp_array|
     end
   end
 end
+
